@@ -21,30 +21,24 @@
 
 axios.get('https://lambda-times-backend.herokuapp.com/articles')
     .then((response) => {
-        console.log(response);
         const newCard = cardArticles(response.data.articles.bootstrap[0])
-        console.log(newCard);
-        // main.appendChild(newCard)
+        main.appendChild(newCard)
     })
     .catch((err) => {
         console.log(err)
     })
 axios.get('https://lambda-times-backend.herokuapp.com/articles')
     .then((response) => {
-        console.log(response);
         const newCard = cardArticles(response.data.articles.bootstrap[1])
-        console.log(newCard);
-        // main.appendChild(newCard)
+        main.appendChild(newCard)
     })
     .catch((err) => {
         console.log(err)
     })
 axios.get('https://lambda-times-backend.herokuapp.com/articles')
     .then((response) => {
-        console.log(response);
         const newCard = cardArticles(response.data.articles.bootstrap[2])
-        console.log(newCard);
-        // main.appendChild(newCard)
+        main.appendChild(newCard)
     })
     .catch((err) => {
         console.log(err)
@@ -52,10 +46,8 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
 
 axios.get('https://lambda-times-backend.herokuapp.com/articles')
     .then((response) => {
-        console.log(response);
         const newCard = cardArticles(response.data.articles.javascript[0])
-        console.log(newCard);
-        // main.appendChild(newCard)
+        main.appendChild(newCard)
     })
     .catch((err) => {
         console.log(err)
@@ -63,10 +55,8 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
 
 axios.get('https://lambda-times-backend.herokuapp.com/articles')
     .then((response) => {
-        console.log(response);
         const newCard = cardArticles(response.data.articles.javascript[1])
-        console.log(newCard);
-        // main.appendChild(newCard)
+        main.appendChild(newCard)
     })
     .catch((err) => {
         console.log(err)
@@ -74,10 +64,8 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
 
 axios.get('https://lambda-times-backend.herokuapp.com/articles')
     .then((response) => {
-        console.log(response);
         const newCard = cardArticles(response.data.articles.javascript[2])
-        console.log(newCard);
-        // main.appendChild(newCard)
+        main.appendChild(newCard)
     })
     .catch((err) => {
         console.log(err)
@@ -85,10 +73,8 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
 
 axios.get('https://lambda-times-backend.herokuapp.com/articles')
     .then((response) => {
-        console.log(response);
         const newCard = cardArticles(response.data.articles.javascript[3])
-        console.log(newCard);
-        // main.appendChild(newCard)
+        main.appendChild(newCard)
     })
     .catch((err) => {
         console.log(err)
@@ -96,10 +82,8 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
 
 axios.get('https://lambda-times-backend.herokuapp.com/articles')
     .then((response) => {
-        console.log(response);
         const newCard = cardArticles(response.data.articles.jquery[0])
-        console.log(newCard);
-        // main.appendChild(newCard)
+        main.appendChild(newCard)
     })
     .catch((err) => {
         console.log(err)
@@ -107,10 +91,8 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
 
 axios.get('https://lambda-times-backend.herokuapp.com/articles')
     .then((response) => {
-        console.log(response);
         const newCard = cardArticles(response.data.articles.jquery[1])
-        console.log(newCard);
-        // main.appendChild(newCard)
+        main.appendChild(newCard)
     })
     .catch((err) => {
         console.log(err)
@@ -118,10 +100,8 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
 
 axios.get('https://lambda-times-backend.herokuapp.com/articles')
     .then((response) => {
-        console.log(response);
         const newCard = cardArticles(response.data.articles.jquery[2])
-        console.log(newCard);
-        // main.appendChild(newCard)
+        main.appendChild(newCard)
     })
     .catch((err) => {
         console.log(err)
@@ -129,10 +109,8 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
 
 axios.get('https://lambda-times-backend.herokuapp.com/articles')
     .then((response) => {
-        console.log(response);
         const newCard = cardArticles(response.data.articles.node[0])
-        console.log(newCard);
-        // main.appendChild(newCard)
+        main.appendChild(newCard)
     })
     .catch((err) => {
         console.log(err)
@@ -140,10 +118,8 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
 
 axios.get('https://lambda-times-backend.herokuapp.com/articles')
     .then((response) => {
-        console.log(response);
         const newCard = cardArticles(response.data.articles.node[1])
-        console.log(newCard);
-        // main.appendChild(newCard)
+        main.appendChild(newCard)
     })
     .catch((err) => {
         console.log(err)
@@ -151,10 +127,8 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
 
 axios.get('https://lambda-times-backend.herokuapp.com/articles')
     .then((response) => {
-        console.log(response);
         const newCard = cardArticles(response.data.articles.technology[0])
-        console.log(newCard);
-        // main.appendChild(newCard)
+        main.appendChild(newCard)
     })
     .catch((err) => {
         console.log(err)
@@ -162,10 +136,8 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
 
 axios.get('https://lambda-times-backend.herokuapp.com/articles')
     .then((response) => {
-        console.log(response);
         const newCard = cardArticles(response.data.articles.technology[1])
-        console.log(newCard);
-        // main.appendChild(newCard)
+        main.appendChild(newCard)
     })
     .catch((err) => {
         console.log(err)
@@ -173,10 +145,8 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
 
 axios.get('https://lambda-times-backend.herokuapp.com/articles')
     .then((response) => {
-        console.log(response);
         const newCard = cardArticles(response.data.articles.technology[2])
-        console.log(newCard);
-        // main.appendChild(newCard)
+        main.appendChild(newCard)
     })
     .catch((err) => {
         console.log(err)
@@ -211,12 +181,6 @@ function cardArticles(stuff) {
     const theName = document.createElement('span');
     theName.textContent = `by ${stuff.authorName}`;
     theAuthor.appendChild(theName);
-
-
-
-
-
-
 
     return theCard
 }
